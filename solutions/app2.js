@@ -1,8 +1,5 @@
 const setCookie = (key, value) => document.cookie = `${key}=${value}; expires=${new Date(new Date().setMinutes(new Date().getMinutes() + 15))}`
 
-setCookie('viewed','5')
-setCookie('uid','354774631237')
-setCookie('ssid','Bx55OWbHJ0Vt_IGIF')
 const cookieHandler = {
   getAll(){
     const cookiesObj = {};
@@ -31,4 +28,4 @@ const cookieHandler = {
 
 
 
-export { cookieHandler };
+export { cookieHandler }
